@@ -85,7 +85,7 @@ python3 eval.py --output_folder pretrained_models/merge
 ```
 #### 4. Examples
 
-![explanations](results/comparison.png)
+![explanations](results/comparison.jpg)
 
 ## License && Issues
 
