@@ -84,7 +84,7 @@ python3 main.py --config config.json
 python3 eval.py --output_folder pretrained_models/merge
 ```
 #### 4. Examples
-We provide some examples about MERGE.
+
 ![explanations](results/comparison.png)
 
 ## License && Issues
