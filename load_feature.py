@@ -8,7 +8,7 @@ import h5py
 import torch
 from torch.utils.data import Dataset
 import tools.compute_softscore
-from dataset import is_howmany
+from load_data import is_howmany
 
 COUNTING_ONLY = False
 

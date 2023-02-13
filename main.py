@@ -7,9 +7,9 @@ from torch.utils.data import DataLoader, ConcatDataset, random_split
 import random
 import json
 
-from dataset import Dictionary, VQAFeatureDataset, GQADataset
-from dataset import tfidf_from_questions
-from dataset_cp_v2 import VQA_cp_Dataset, Image_Feature_Loader
+from load_data import Dictionary, VQAFeatureDataset, GQADataset
+from load_data import tfidf_from_questions
+from load_feature import VQA_cp_Dataset, Image_Feature_Loader
 from model.merge import build_merge
 from config import parse_with_config
 from train import train

@@ -8,8 +8,8 @@ from torch.autograd import Variable
 from tqdm import tqdm
 import json
 
-from dataset import Dictionary, VQAFeatureDataset
-from dataset_cp_v2 import VQA_cp_Dataset, Image_Feature_Loader
+from load_data import Dictionary, VQAFeatureDataset
+from load_feature import VQA_cp_Dataset, Image_Feature_Loader
 from model.merge import build_merge
 from train import compute_score_with_logits
 from model.position_emb import prepare_graph_variables

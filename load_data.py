@@ -11,7 +11,7 @@ import tools.compute_softscore
 import itertools
 import math
 
-# TODO: merge dataset_cp_v2.py with dataset.py
+# TODO: merge load_feature.py with load_data.py
 
 COUNTING_ONLY = False
 
