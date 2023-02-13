@@ -9,7 +9,7 @@ image scenes and improve the accuracy of predicted answers and explanations. Spe
 construct action relations, spatial relations, and attribute relations of question-related entities in images. Then we encode
 contextual visual features through the graph attention mechanism, and fuse question and answer embeddings to generate
 more accurate textual explanations. We conducted extensive experiments on seven datasets including [VQA2.0](https://arxiv.org/abs/1612.00837), [VQA-CP2](https://arxiv.org/abs/1712.00377), [GQA](https://arxiv.org/abs/1902.09506), [VQA-CE](https://arxiv.org/abs/2104.03149), [VQA-X](https://arxiv.org/abs/1802.08129), [VCR](https://arxiv.org/abs/1811.10830) and [CLEVR-X](https://arxiv.org/abs/2204.02380), to verify superior answer accuracy and high quality explanations.
-![Overview of MERGE](misc/MERGE.png)
+![Overview of MERGE](misc/MERGE.jpg)
 ## Dependencies:
 We develop the codes on Windows operation system, and run the codes on Ubuntu 18.04. The codes depend on Python 3.7. Other packages (e.g., PyTorch) can be found in the `./requirements.txt`.
 
